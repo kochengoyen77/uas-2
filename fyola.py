@@ -6,6 +6,10 @@ import string
 import matplotlib.pyplot as plt
 from PIL import Image
 import streamlit as st
+
+st.set_page_config(layout="wide")  # this needs to be the first Streamlit command called
+st.title("Statistik Jumlah Penumpang TransJakarta Tahun 2019")
+st.markdown("*Sumber data berasal dari [Jakarta Open Data](https://data.jakarta.go.id/dataset/data-jumlah-penumpang-trans-jakarta-tahun-2019-kpi)*")
 punc = string.punctuation
 
 #membuka file txt
