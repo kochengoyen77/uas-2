@@ -42,8 +42,8 @@ for value, key in list:
 
 # Code untuk membuat bar charts 
 plt.bar(sbx, sby, color ='green',width = 0.7)
-plt.set_xlabel("Huruf Unik" fontsize=15)
-plt.set_ylabel("Jumlah Huruf Unik" fontsize=15)
+plt.xlabel("Huruf Unik" fontsize=15)
+plt.ylabel("Jumlah Huruf Unik" fontsize=15)
 plt.title("Huruf Unik dan Jumlahnya")
 plt.savefig("Bar Plot Hitung Huruf")
 plt.show()
