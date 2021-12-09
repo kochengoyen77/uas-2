@@ -4,6 +4,8 @@
 
 import string
 import matplotlib.pyplot as plt
+from PIL import Image
+import streamlit as st
 punc = string.punctuation
 
 #membuka file txt
