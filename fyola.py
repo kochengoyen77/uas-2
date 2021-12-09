@@ -41,10 +41,12 @@ for value, key in list:
     sby.append(value)
 
 # Code untuk membuat bar charts 
-st.bar(sbx, sby, color ='green',width = 0.7)
+plt.bar(sbx, sby, color ='green',width = 0.7)
 plt.xlabel("Huruf Unik")
 plt.ylabel("Jumlah Huruf Unik")
 plt.title("Huruf Unik dan Jumlahnya")
 plt.savefig("Bar Plot Hitung Huruf")
 plt.show()
-
+st.bar(sbx, sby, color ='green',width = 0.7)
+st.xlabel("Huruf Unik")
+st.ylabel("Jumlah Huruf Unik")
